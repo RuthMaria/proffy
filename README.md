@@ -62,6 +62,12 @@ Proffy é uma plataforma de estudos onlines que conecta professores e alunos. A 
 git clone https://github.com/RuthMaria/proffy.git
 ```
 
+- Go to web folder
+
+```
+cd proffy/web
+```
+
 - Install all the dependencies indicated in the package.json
 
 ```
