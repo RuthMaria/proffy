@@ -9,6 +9,7 @@ import './styles.css'
 
 interface PageHeaderProps {
     title: string;
+    description?: string  // o '?' diz que essa propriedade não é obrigatória, é opcional
 }
  /*
  React.FC diz que o componente PageHeader espera receber a propriedade do tipo que está em PageHeaderProps (tipagem do typescript).
@@ -28,6 +29,7 @@ const PageHeader: React.FC<PageHeaderProps> = (props) => {
 
             <div className="header-content">
                 <strong> { props.title } </strong>    
+                { props.description && <p>{props.description}</p> }
                 { props.children }             
             </div>            
         </header>
