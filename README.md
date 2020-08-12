@@ -3,16 +3,18 @@
 </p>
 
 <p align="center">
-  <a href="#execution">View project execution</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
+  <a href="#execution">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
   <a href="#technologies">Technologies Used</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#dependencies">Dependencies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#run">Run the project locally</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#run">How to run the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#license">license</a>
+  <a href="#license">License</a>
 </p>
 
 <p align="center">
- <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000" alt="PRs welcome!" />
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000" alt="PRs welcome!" /> 
+
+  <img alt="License" src="https://img.shields.io/badge/Made%20by-Ruth%20Maria-blueviolet">
 
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000">
 </p>
@@ -28,13 +30,13 @@ Proffy é uma plataforma de estudos onlines que conecta professores e alunos. A 
 
 <a id="execution"></a><br>
 
-## :eyes: View project execution
+## :tv: Preview
 
 ![video]()
 
 <a id="technologies"></a><br>
 
-## :computer: Technologies Used
+## ⚒️ Technologies Used
  * HTML5
  * CSS3
  * Typescript
@@ -47,14 +49,14 @@ Proffy é uma plataforma de estudos onlines que conecta professores e alunos. A 
 
 <a id="run"></a><br>
 
-## :gear: Run the project locally
+## :gear: How to run the project
 
-### Requirements
+### 🎯 Requirements
 - [MongoDB](https://www.mongodb.com/try/download/community)
 - [NodeJS in its LTS version](https://nodejs.org/en/download/)
 - [Visual Studio Code](https://code.visualstudio.com/download)
 
-### Commands
+### 🚀 Commands
 
 - Clone this repository
 
@@ -88,7 +90,7 @@ https://localhost:3000
 
 <a id="contribute"></a><br>
 
-## :recycle: How to contribute
+## 💬 How to contribute
 
 - Fork this repository,
 - Create a branch with your feature: `git checkout -b my-feature`
