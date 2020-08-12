@@ -1,5 +1,5 @@
 <p align="center">
-  <img  src=".github/logomarca.png"  width="220px">
+  <img  src=".github/logomarca.png" width="500px">
 </p>
 
 <p align="center">
@@ -106,5 +106,5 @@ This project is under the MIT license. See the  file [LICENSE](LICENSE.md) for m
 ---
 
 <h4 align="center">
-    Developed with 💜 by <a href="https://www.linkedin.com/in/ruth-maria-9b256071/" target="_blank">Ruth Maria</a>
+    Developed with ❤️ by <a href="https://www.linkedin.com/in/ruth-maria-9b256071/" target="_blank">Ruth Maria</a>
 </h4>
