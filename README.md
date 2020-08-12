@@ -1,5 +1,5 @@
 <p align="center">
-  <img  src=".github/logo.png"  width="220px">
+  <img  src=".github/logomarca.png"  width="220px">
 </p>
 
 <p align="center">
@@ -49,14 +49,14 @@ Proffy é uma plataforma de estudos onlines que conecta professores e alunos. A 
 
 <a id="run"></a><br>
 
-## :gear: How to run the project
+## 🚀 How to run the project
 
-### 🎯 Requirements
+### Requirements
 - [MongoDB](https://www.mongodb.com/try/download/community)
 - [NodeJS in its LTS version](https://nodejs.org/en/download/)
 - [Visual Studio Code](https://code.visualstudio.com/download)
 
-### 🚀 Commands
+### Commands
 
 - Clone this repository
 
@@ -90,7 +90,7 @@ https://localhost:3000
 
 <a id="contribute"></a><br>
 
-## 💬 How to contribute
+## 🎯 How to contribute
 
 - Fork this repository,
 - Create a branch with your feature: `git checkout -b my-feature`
