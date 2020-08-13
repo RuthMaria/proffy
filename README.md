@@ -1,11 +1,10 @@
 <p align="center">
-  <img  src=".github/logomarca.png" width="500px">
+  <img  src=".github/logomarca.png" width="400px">
 </p>
 
 <p align="center">
   <a href="#execution">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
   <a href="#technologies">Technologies Used</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#dependencies">Dependencies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#run">How to run the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#license">License</a>
@@ -45,8 +44,6 @@ Proffy é uma plataforma de estudos onlines que conecta professores e alunos. A 
  * React Native
  * Expo
 
-<a id="dependencies"></a><br>
-
 <a id="run"></a><br>
 
 ## 🚀 How to run the project
@@ -57,7 +54,9 @@ Proffy é uma plataforma de estudos onlines que conecta professores e alunos. A 
 git clone https://github.com/RuthMaria/proffy.git
 ```
 
-### 🗄️ Run API
+<br>
+
+### 🗃️ Run API
 
 - Go to server folder
 
@@ -79,7 +78,7 @@ npm start
 
 <br>
 
-### 💻 Run Web Project
+### 🖥️ Run Web Project
 
 - Go to web folder
 
