@@ -51,26 +51,43 @@ Proffy é uma plataforma de estudos onlines que conecta professores e alunos. A 
 
 ## 🚀 How to run the project
 
-### Requirements
-- [MongoDB](https://www.mongodb.com/try/download/community)
-- [NodeJS in its LTS version](https://nodejs.org/en/download/)
-- [Visual Studio Code](https://code.visualstudio.com/download)
-
-### Commands
-
 - Clone this repository
 
 ```
 git clone https://github.com/RuthMaria/proffy.git
 ```
 
+### 🗄️ Run API
+
+- Go to server folder
+
+```
+cd web
+```
+
+- Install dependencies
+
+```
+npm install 
+```
+
+- Run the project
+
+```
+npm start
+```
+
+<br>
+
+### 💻 Run Web Project
+
 - Go to web folder
 
 ```
-cd proffy/web
+cd web
 ```
 
-- Install all the dependencies indicated in the package.json
+- Install dependencies 
 
 ```
 npm install 
@@ -87,6 +104,33 @@ npm start
 ```
 https://localhost:3000
 ```
+
+<br>
+
+### 📱 Run Mobile Project
+
+- Install app of [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) in your cellphone or a emulator android/ios. 
+
+- Go to mobile folder
+
+```
+cd mobile
+```
+
+- Install dependencies 
+
+```
+npm install 
+```
+
+- Run the project
+
+```
+npm start
+```
+
+- Read the QRCode with the app of expo or run on emulator.
+
 
 <a id="contribute"></a><br>
 
