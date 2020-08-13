@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { View, Text, TextInput } from 'react-native'
 import { ScrollView, BorderlessButton, RectButton } from 'react-native-gesture-handler'
+import AsyncStorage from '@react-native-community/async-storage'
 import { Feather } from '@expo/vector-icons'
 import TeacherItem, { Teacher } from '../../components/TeacherItem'
 import PageHeader from '../../components/PageHeader'
@@ -10,17 +11,33 @@ import api from '../../services/api'
 
 function TeacherList() {
     const [teachers, setTeachers] = useState([])
+    const [favorites, setFavorites] = useState<number[]>([])
     const [isFiltersVisible, setIsFiltersVisible] = useState(false)    
 
     const [subject, setSubject] = useState('')
     const [week_day, setWeekDay] = useState('')
     const [time, setTime] = useState('')
 
+    function loadFavorites() {
+        AsyncStorage.getItem('favorites').then(response => {
+            if (response) {
+                const favoriteTeachers = JSON.parse(response)
+                const favoritedTeachersIds = favoriteTeachers.map((teacher: Teacher) => {
+                    return teacher.id
+                })
+
+                setFavorites(favoritedTeachersIds)
+            }
+        })
+    }
+    
     function handleToggleFiltersVisible() {
         setIsFiltersVisible(!isFiltersVisible)
     }
 
     async function handleFiltersSubmit() {
+        loadFavorites()
+
         const response = await api.get('classes', {
             params: {
                 subject,
@@ -93,7 +110,13 @@ function TeacherList() {
             > 
 
             {teachers.map((teacher: Teacher) => {
-                return <TeacherItem key={teacher.id} teacher={teacher}/>
+                return (
+                    <TeacherItem 
+                        key={teacher.id} 
+                        teacher={teacher}
+                        favorited={favorites.includes(teacher.id)}
+                    />
+                )
             })}
                 
             </ScrollView>
