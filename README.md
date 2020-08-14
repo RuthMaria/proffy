@@ -36,6 +36,12 @@ The application was developed by [Rocketseat](https://rocketseat.com.br/), durin
 
 ![video](https://github.com/RuthMaria/proffy/blob/master/.github/video.gif)
 
+<br>
+
+Home | Proffys | Favorites
+---|---|---
+| ![home](.github/home.png) | ![study](.github/proffys.png) | ![favorites](.github/favorites.png) |
+
 <a id="technologies"></a><br>
 
 ## ⚒️ Technologies Used
