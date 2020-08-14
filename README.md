@@ -1,5 +1,5 @@
 <p align="center">
-  <img  src=".github/logomarca.png" width="400px">
+  <img  src=".github/logomarca.png" width="500px">
 </p>
 
 <p align="center">
@@ -23,7 +23,10 @@
 ## :books: About
 
 <p align="justify">
-Proffy é uma plataforma de estudos onlines que conecta professores e alunos. A aplicação foi desenvolvida na next level week 2 em homenagem ao Dia nacional do Profissional de Educação. Proffy foi desenvolvida utilizando React JS para o fronte-end web, no padrão mobile first, criando uma SPA totalmente responsiva. E React native para o app mobile.
+Proffy is an online study platform that connects teachers and students. Teachers register the subjects they teach, along with their availability of time and the cost per hour/class, and students can search for teachers and connect.
+
+The application was developed by [Rocketseat](https://rocketseat.com.br/), during <strong>Next Level Week #2</strong>, in homage to the <strong>National Day of Education Professionals</strong>. Proffy was developed using React JS for the web front end, in the mobile first standard, creating a fully responsive SPA. And React native for the mobile app.
+
 
 </p>
 
@@ -31,7 +34,7 @@ Proffy é uma plataforma de estudos onlines que conecta professores e alunos. A 
 
 ## :tv: Preview
 
-![video]()
+![video](https://github.com/RuthMaria/proffy/blob/master/.github/video.gif)
 
 <a id="technologies"></a><br>
 
@@ -61,7 +64,7 @@ git clone https://github.com/RuthMaria/proffy.git
 - Go to server folder
 
 ```
-cd web
+cd proffy/server
 ```
 
 - Install dependencies
@@ -83,7 +86,7 @@ npm start
 - Go to web folder
 
 ```
-cd web
+cd proffy/web
 ```
 
 - Install dependencies 
@@ -113,7 +116,7 @@ https://localhost:3000
 - Go to mobile folder
 
 ```
-cd mobile
+cd proffy/mobile
 ```
 
 - Install dependencies 
