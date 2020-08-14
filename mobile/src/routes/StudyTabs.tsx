@@ -1,8 +1,8 @@
 import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
+import { Ionicons } from '@expo/vector-icons'
 import TeacherList from '../pages/TeacherList'
 import Favorites from '../pages/Favorites'
-import { Ionicons } from '@expo/vector-icons'
 
 const { Navigator, Screen } = createBottomTabNavigator()
 

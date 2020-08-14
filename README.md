@@ -25,7 +25,7 @@
 <p align="justify">
 Proffy is an online study platform that connects teachers and students. Teachers register the subjects they teach, along with their availability of time and the cost per hour/class, and students can search for teachers and connect.
 
-The application was developed by [Rocketseat](https://rocketseat.com.br/), during <strong>Next Level Week #2</strong>, in homage to the <strong>National Day of Education Professionals</strong>. Proffy was developed using React JS for the web front end, in the mobile first standard, creating a fully responsive SPA. And React native for the mobile app.
+The application was developed by [Rocketseat](https://rocketseat.com.br/), during <strong>Next Level Week #2</strong>, in homage to the <strong>National Day of Education Professionals</strong>. Proffy was developed using ReactJS for the web frontend, in the mobile first standard, creating a fully responsive SPA. And React native for the mobile app.
 
 
 </p>
@@ -34,7 +34,7 @@ The application was developed by [Rocketseat](https://rocketseat.com.br/), durin
 
 ## :tv: Preview
 
-![video](https://github.com/RuthMaria/proffy/blob/master/.github/video.gif)
+![video](.github/video.gif)
 
 <br>
 
@@ -49,7 +49,7 @@ Home | Proffys | Favorites
  * CSS3
  * Typescript
  * Node.js
- * React
+ * ReactJS
  * React Native
  * Expo
 

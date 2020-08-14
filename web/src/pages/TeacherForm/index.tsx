@@ -11,11 +11,11 @@ import './styles.css'
 
 function TeacherForm() {
     const history = useHistory()
+
     const [name, setName] = useState('')
     const [avatar, setAvatar] = useState('')
     const [whatsapp, setWhatsapp] = useState('')
     const [bio, setBio] = useState('')
-
     const [subject, setSubject] = useState('')
     const [cost, setCost] = useState('')
 
@@ -32,6 +32,7 @@ function TeacherForm() {
 
     function handleCreateClass(e: FormEvent) {
         e.preventDefault()
+
         api.post('classes', {
             name, 
             avatar, 
@@ -40,9 +41,11 @@ function TeacherForm() {
             subject, 
             cost: Number(cost), 
             schedule: scheduleItems
+
         }).then(() => {
             alert('Cadastro realizado com sucesso!')
             history.push('/')
+
         }).catch(() => {
             alert('Erro no cadastro!')
         })
@@ -50,6 +53,7 @@ function TeacherForm() {
     
     function setScheduleItemValue(position: number, field: string, value: string) {
         const updateScheduleItems = scheduleItems.map((scheduleItem, index) => {
+            
             if(index === position){
                 return { ...scheduleItem, [field]: value}
             }

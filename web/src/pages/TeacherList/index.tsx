@@ -4,9 +4,9 @@ import PageHeader from '../../components/PageHeader'
 import TeacherItem, { Teacher } from '../../components/TeacherItem'
 import Input from '../../components/Input'
 import Select from '../../components/Select'
+import api from '../../services/api'
 
 import './styles.css'
-import api from '../../services/api'
 
 /* 
 Pegando o conteúdo que tá no componente de PageHeader e passa um título.  

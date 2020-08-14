@@ -2,7 +2,7 @@ import React, { TextareaHTMLAttributes } from 'react'
 
 import './styles.css'
 
-// InputHTMLAttributes faz com que possa receber todas as propriedades de input
+// TextareaHTMLAttributes faz com que possa receber todas as propriedades de Textarea
 interface TextareaProps extends TextareaHTMLAttributes<HTMLTextAreaElement>{
     label: string
     name: string
