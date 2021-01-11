@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect } from "react"  // o Hook useState permite manter o state local em um componente de função.
 import { Link } from 'react-router-dom' // serve para não dar reload na pagina (conceito de SPA), usado no lugar da tag 'a'
 
 // tem que importar as imagens que for usar, agora pode usar a variável do JS
@@ -13,8 +13,11 @@ import './styles.css'
 
 function Landing() {
 
+        // variável de estado. O useState recebe o valor inicial da variável.
     const [totalConnections, setTotalConnections] = useState(0)
 
+    /* useEffect é usado quando pode ocorrer algum efeito colateral.  Ele só roda depois da primeira renderização e depois de toda atualização.
+     Ex.: erro na comunicar com uma API .*/
     useEffect(() => {
         api.get('/connections').then(response => {
             const { total } = response.data

@@ -44,7 +44,7 @@ function TeacherForm() {
 
         }).then(() => {
             alert('Cadastro realizado com sucesso!')
-            history.push('/')
+            history.push('/') // redireciona para a rota home
 
         }).catch(() => {
             alert('Erro no cadastro!')
@@ -76,6 +76,7 @@ function TeacherForm() {
                     <fieldset>
                         <legend>Seus dados</legend>
 
+                        // Onchange = conforme o usuário digita o state é atualizado
                         <Input 
                             name="name" label="Nome completo" value={name} 
                             onChange={(e) => {setName(e.target.value)}}

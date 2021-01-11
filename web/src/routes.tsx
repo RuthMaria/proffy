@@ -7,6 +7,8 @@ import TeacherForm from './pages/TeacherForm'
 /*
  BrowserRouter precisa ser colocado em todas as rotas da aplicação, ele faz o roteamento.
  Cada página da aplicação será um Route
+
+ npm install --save react-router-dom
 */
 
 function Routes() {

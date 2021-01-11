@@ -23,6 +23,7 @@
 .page-header .top-bar-container a:hover {
     opacity: 0.6;
 }
+
 .page-header .top-bar-container > img { /* pega apenas a imagem que está no primeiro nivel(logoImg)*/
     height: 1.6rem;
 }
